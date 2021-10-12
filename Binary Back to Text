@@ -1,0 +1,138 @@
+import ECS101code1
+binary_str = ECS101code1.com_str
+bin_split = []
+n = 6
+for i in range(0, len(binary_str), n):
+    bin_split.append(binary_str[i : i + n])
+print(bin_split)
+
+newlist = []
+for item in bin_split:
+    if item == '000000':
+        newlist.append(' ')
+    elif item == '000001':
+        newlist.append('a')
+    elif item == '000010':
+        newlist.append('b')
+    elif item == '000011':
+        newlist.append('c')
+    elif item == '000100':
+        newlist.append('d')
+    elif item == '000101':
+        newlist.append('e')
+    elif item == '000111':
+        newlist.append('f')
+    elif item == '001000':
+        newlist.append('g')
+    elif item == '001001':
+        newlist.append('h')
+    elif item == '001010':
+        newlist.append('i')
+    elif item == '001011':
+        newlist.append('j')
+    elif item == '001100':
+        newlist.append('k')
+    elif item == '001101':
+        newlist.append('l')
+    elif item == '001110':
+        newlist.append('m')
+    elif item == '001111':
+        newlist.append('n')
+    elif item == '010000':
+        newlist.append('o')
+    elif item == '010001':
+        newlist.append('p')
+    elif item == '010010':
+        newlist.append('q')
+    elif item == '010011':
+        newlist.append('r')
+    elif item == '010100':
+        newlist.append('s')
+    elif item == '010101':
+        newlist.append('t')
+    elif item == '010110':
+        newlist.append('u')
+    elif item == '010111':
+        newlist.append('v')
+    elif item == '011000':
+        newlist.append('w')
+    elif item == '011001':
+        newlist.append('x')
+    elif item == '011010':
+        newlist.append('y')
+    elif item == '011011':
+        newlist.append('z')
+    elif item == '011100':
+        newlist.append('.')
+    elif item == '011101':
+        newlist.append(',')
+    elif item == '011110':
+        newlist.append("-")
+    elif item == '011111':
+        newlist.append("'")
+    elif item == '100000':
+        newlist.append('"')
+    elif item == '100001':
+        newlist.append('!')
+    elif item == '100010':
+        newlist.append('A')
+    elif item == '100011':
+        newlist.append('B')
+    elif item == '100100':
+        newlist.append('C')
+    elif item == '100101':
+        newlist.append('D')
+    elif item == '100111':
+        newlist.append('E')
+    elif item == '101000':
+        newlist.append('F')
+    elif item == '101001':
+        newlist.append('G')
+    elif item == '101011':
+        newlist.append('H')
+    elif item == '101100':
+        newlist.append('I')
+    elif item == '101101':
+        newlist.append('J')
+    elif item == '101110':
+        newlist.append('K')
+    elif item == '101111':
+        newlist.append('L')
+    elif item == '110000':
+        newlist.append('M')
+    elif item == '110001':
+        newlist.append('N')
+    elif item == '110010':
+        newlist.append('O')
+    elif item == '110011':
+        newlist.append('P')
+    elif item == '110100':
+        newlist.append('Q')
+    elif item == '110101':
+        newlist.append('R')
+    elif item == '110111':
+        newlist.append('S')
+    elif item == '111000':
+        newlist.append('T')
+    elif item == '111001':
+        newlist.append('U')
+    elif item == '111001':
+        newlist.append('V')
+    elif item == '111010':
+        newlist.append('W')
+    elif item == '111011':
+        newlist.append('X')
+    elif item == '111100':
+        newlist.append('Y')
+    elif item == '111101':
+        newlist.append('Z')
+    elif item == '111110':
+        newlist.append('\n')
+    elif item == '000110':
+        newlist.append('the')
+original_str = ''
+for item in newlist:
+    original_str += item
+
+print(original_str)
+
